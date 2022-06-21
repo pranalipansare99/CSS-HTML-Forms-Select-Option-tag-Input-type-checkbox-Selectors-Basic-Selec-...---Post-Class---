@@ -57,12 +57,8 @@ grid-template-columns: 300px 700px;
     margin: auto 20px;
 
 }
+
 .skills
-{
-    text-align: center;
-    color: white;
-}
-.skill-title
 {
     font-size: 0.75rem;
     text-align: center;
@@ -71,6 +67,7 @@ grid-template-columns: 300px 700px;
     padding-bottom: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+     color: white;
 }
 .skill-name
 {
