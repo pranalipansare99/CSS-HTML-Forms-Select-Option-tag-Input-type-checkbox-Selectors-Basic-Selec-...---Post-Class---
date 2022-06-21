@@ -1,0 +1,102 @@
+.main-content{
+min-height: 1000px;
+width: 90%;
+margin: 20px auto;
+display: grid;
+grid-template-columns: 300px 700px;
+}
+.left-section{
+    grid-column: span 1;
+    background-color:#222;
+}
+.right-section{
+    grid-column: span 1/span 2;
+    background-color:#f6f6f6;
+}
+.profile
+{
+    padding:1rem ;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: 5px white solid;
+    border-radius: 30%;
+    width: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform:uppercase;
+    letter-spacing: 0.2rem;
+    padding: 0.8rem;
+    color: white;
+}
+.designation
+{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+.description
+{
+    font-size: 0.75rem;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+.social-media
+{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.icon{
+    margin: auto 20px;
+
+}
+.skills
+{
+    text-align: center;
+    color: white;
+}
+.skill-title
+{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.skill-name
+{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding: 0.5rem;
+}
+.skill-item
+{
+    color: white;
+    text-align: left;
+
+}
+.progress-bar
+{
+    border: 1px  white solid ;
+    height: 4.px;
+    color: white;
+}
+.right-main-content
+{
+    padding: 2rem 3rem 2 rem 3rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
